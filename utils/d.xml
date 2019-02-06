@@ -1,0 +1,89 @@
+<ymaps xmlns="http://maps.yandex.ru/ymaps/1.x" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://maps.yandex.ru/business/1.x http://maps.yandex.ru/schemas/business/1.x/business.xsd http://maps.yandex.ru/geocoder/1.x http://maps.yandex.ru/schemas/geocoder/1.x/geocoder.xsd http://maps.yandex.ru/psearch/1.x http://maps.yandex.ru/schemas/psearch/1.x/psearch.xsd http://maps.yandex.ru/search/1.x http://maps.yandex.ru/schemas/search/1.x/search.xsd http://maps.yandex.ru/web/1.x http://maps.yandex.ru/schemas/web/1.x/web.xsd http://maps.yandex.ru/search/internal/1.x http://maps.yandex.ru/schemas/search/internal/1.x/internal.xsd">
+<GeoObjectCollection>
+<metaDataProperty xmlns="http://www.opengis.net/gml">
+<GeocoderResponseMetaData xmlns="http://maps.yandex.ru/geocoder/1.x">
+<request>островна 2 москва</request>
+<suggest>
+островна
+<fix>я</fix>
+2 москва
+</suggest>
+<found>1</found>
+<results>10</results>
+</GeocoderResponseMetaData>
+</metaDataProperty>
+<featureMember xmlns="http://www.opengis.net/gml">
+<GeoObject xmlns="http://maps.yandex.ru/ymaps/1.x" xmlns:gml="http://www.opengis.net/gml" gml:id="1">
+<metaDataProperty xmlns="http://www.opengis.net/gml">
+<GeocoderMetaData xmlns="http://maps.yandex.ru/geocoder/1.x">
+<kind>house</kind>
+<text>Россия, Москва, Островная улица, 2</text>
+<precision>exact</precision>
+<Address xmlns="http://maps.yandex.ru/address/1.x">
+<country_code>RU</country_code>
+<postal_code>121614</postal_code>
+<formatted>Москва, Островная улица, 2</formatted>
+<Component>
+<kind>country</kind>
+<name>Россия</name>
+</Component>
+<Component>
+<kind>province</kind>
+<name>Центральный федеральный округ</name>
+</Component>
+<Component>
+<kind>province</kind>
+<name>Москва</name>
+</Component>
+<Component>
+<kind>locality</kind>
+<name>Москва</name>
+</Component>
+<Component>
+<kind>street</kind>
+<name>Островная улица</name>
+</Component>
+<Component>
+<kind>house</kind>
+<name>2</name>
+</Component>
+</Address>
+<AddressDetails xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+<Country>
+<AddressLine>Москва, Островная улица, 2</AddressLine>
+<CountryNameCode>RU</CountryNameCode>
+<CountryName>Россия</CountryName>
+<AdministrativeArea>
+<AdministrativeAreaName>Москва</AdministrativeAreaName>
+<Locality>
+<LocalityName>Москва</LocalityName>
+<Thoroughfare>
+<ThoroughfareName>Островная улица</ThoroughfareName>
+<Premise>
+<PremiseNumber>2</PremiseNumber>
+<PostalCode>
+<PostalCodeNumber>121614</PostalCodeNumber>
+</PostalCode>
+</Premise>
+</Thoroughfare>
+</Locality>
+</AdministrativeArea>
+</Country>
+</AddressDetails>
+</GeocoderMetaData>
+</metaDataProperty>
+<description xmlns="http://www.opengis.net/gml">Москва, Россия</description>
+<name xmlns="http://www.opengis.net/gml">Островная улица, 2</name>
+<boundedBy xmlns="http://www.opengis.net/gml">
+<Envelope>
+<lowerCorner>37.453432 55.758093</lowerCorner>
+<upperCorner>37.461643 55.762723</upperCorner>
+</Envelope>
+</boundedBy>
+<Point xmlns="http://www.opengis.net/gml">
+<pos>37.457537 55.760408</pos>
+</Point>
+</GeoObject>
+</featureMember>
+</GeoObjectCollection>
+</ymaps>

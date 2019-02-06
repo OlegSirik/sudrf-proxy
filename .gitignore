@@ -1,0 +1,9 @@
+*.xlsx
+mvnw.*
+*.log*.*
+*.log
+target/
+kladr/
+*.txt
+.idea
+.mvn
